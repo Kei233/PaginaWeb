@@ -1,0 +1,74 @@
+html {
+    font-size: 100%; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.925);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 31, 31, 0.925);
+    margin: 0;
+    border: 0.25rem solid rgba(0, 41, 41, 1);
+    padding: 4vw;
+    text-align: center;
+    font-size: 4.2vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1:hover {
+    transform: scale(1.05);
+    transition: transform 350ms ease, color 350ms ease;
+    color:  rgb(2, 99, 99);
+}
+
+#lista-en-parrafo {
+    margin: 2vw auto;
+    width: 80%;
+    max-width: 1000px;
+    font-size: 1.2rem;
+    padding: 2rem;
+    border: 1px solid #000;
+    background-color: #fff;
+    text-align: left;
+}
+
+
+p {
+    background-color: #fff;
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+}
+
+
+ol {
+    background-color: #fff;
+    padding: 1rem 1rem 1rem 2rem;
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+
+
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: #000;
+    background-color: #fff;
+    padding-left: 0.2rem;
+    font-size: 1.1rem;
+}
+
+#lista-en-parrafo:hover {
+    transition: all 350ms ease;
+    box-shadow: 0.5rem 0.5rem 1.5rem gray;
+}
